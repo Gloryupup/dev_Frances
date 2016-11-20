@@ -1,0 +1,23 @@
+<extend name="Public:admin" />
+<block name="main">
+	<article class="module width_full">
+		<header><h3>用户编辑</h3></header>
+		<form method="post" action="{:U('User/userEdit',array('userid'=>$user['userid']))}">
+			<div class="module_content">
+				<fieldset>
+					<label>用户名</label>
+					<input type="text" name="username" value={$user.username}>
+				</fieldset>
+				<fieldset>
+					<label>密码</label>
+					<input type="text" name="password" value={$user.password}>
+				</fieldset>
+			</div>
+			<footer>
+				<div class="submit_link">
+					<input type="submit" value="提交" class="alt_btn">
+				</div>
+			</footer>
+		</form>
+	</article><!-- end of post new article -->
+</block>

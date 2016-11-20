@@ -1,0 +1,153 @@
+ *
+        {
+           
+            margin: 0px;
+            padding: 0px;
+        }
+        body
+        {
+            text-align: center;
+        }
+        ul, li
+        {
+            list-style: none;
+        }
+        a
+        {
+            color: #3381BF;
+        }
+        }
+        a:hover
+        {
+            text-decoration: underline;
+        }
+
+        .box2
+        {
+            border: 1px solid #A7AAAB;
+            text-align: left;
+            overflow: hidden;
+            color: #9C9C9C;
+            text-align: left;
+            width:33%;
+            height:600px;
+
+        }
+        .box2
+        {
+            margin-bottom: 5px;
+        }
+        .box2 h2
+        {
+            margin-top: 10px;
+            width:360px;
+            height: 35px;
+            line-height: 30px;
+            overflow-y: hidden;
+            border-bottom: 1px solid #A7AAAB;
+            color: #6A99A8;
+            padding-left: 85px;
+            font-size: 25px;
+        }
+        .box2 h2 a.more
+        {
+            float: right;
+            text-decoration: underline;
+            background: url() no-repeat 100% -123px;
+            padding-right: 8px;
+            font-weight: normal;
+        }
+        .box2 h2 span
+        {
+            margin-left: 5px;
+            font-weight: normal;
+            color: #B9B7B8;
+        }
+        .box2 .inner
+        {
+            line-height: 18px;
+            overflow: hidden;
+            color: #3083C7;
+        }
+        .box2 a
+        {
+            width:30px;
+            height:30px;
+            color: #6A99A8;
+            white-space: nowrap;
+        }
+        .rank_list
+        {
+            width:290px;
+            line-height: 14px;
+            margin: auto;
+            font-size: 18px;
+        }
+        .rank_list a
+        {
+            font-size:23px;
+            margin-left:10px;
+
+        }
+        .rank_list li
+        {
+            height: 30px;
+            padding-top: 5px;
+            margin-bottom: 15px;
+            width: 290px;
+            padding-left: 20px;
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+        }
+        .rank_list li.top3 em
+        {
+
+            background: #366F82;
+            border: 1px solid #384B7D;
+            color: #EDF3F5;
+        }
+        .rank_list em
+        {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 19px;
+            height: 19px;
+            margin-top: 4px;
+            padding-top: 3px;
+            border: 1px solid #585B5C;
+            color: #EDF3F5;
+            font-style: normal;
+            font-size: 16px;
+            font-family: Arial;
+            background: #92999C;
+            text-align: center;
+            line-height: 12px;
+            overflow: hidden;
+        }
+        .rank_list span
+        {
+            position: absolute;
+            width: 70px;
+            color: #3381BF;
+            font-size: 16px;
+            text-align: right;
+            margin-left: 45px;
+            height: 30px;
+        }
+        #movie_rank .rank_list span
+        {
+            position: absolute;
+            width: 40px;
+            color: #B7B7B7;
+            text-align: right;
+            height: 14px;
+            left:170px;
+        }
+        #dropdown{width:100px}
+        #dropdown p{width:70px; height:24px;font-size: 20px; line-height:24px; padding-left:12px; border:1px solid #a9c9e2; cursor:pointer}
+        #dropdown ul{width:50px;margin-top:2px; border:1px solid #a9c9e2; display:none}
+        #dropdown ul li{height:24px; line-height:24px; text-indent:10px}
+        #dropdown ul li a{display:block; height:24px; color:#807a62; text-decoration:none}
+        #dropdown ul li a:hover{color:#369}

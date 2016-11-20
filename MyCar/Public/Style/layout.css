@@ -1,0 +1,70 @@
+a {
+	text-decoration: none;
+	color: #1f1f1f;
+}
+
+table {
+	width: 700px;
+}
+
+.header {
+	padding: 20px 0;
+	display: table;
+	width: 100%;
+}
+
+.title {
+	display: table-cell;
+	vertical-align: middle;
+	font-family: "Microsoft YaHei";
+	font-size: 28px;
+	letter-spacing: 1.2px;
+	font-weight: 500;
+	font-style: normal;
+	color: #000;
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: 1em;
+}
+
+.headerNav {
+	text-align: right;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.collection {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header-link {
+	color: #000;
+	padding: .75em 1em;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1em;
+}
+
+.body {
+	padding: 96px 32px;
+	width: 100%;
+	max-width: 700px;
+	display: block;
+	margin: 0 auto;
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+	line-height: 1.6em;
+	letter-spacing: .2px;
+	font-weight: 300;
+	font-style: normal;
+	color: #1f1f1f;
+}
+
+.list {}
