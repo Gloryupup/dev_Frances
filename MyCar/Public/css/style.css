@@ -1,0 +1,116 @@
+*{
+	margin:0;
+	padding:0;
+    list-style-type:none;
+}
+
+a,img{
+	border:0;
+}
+
+/* select */
+.select{
+	margin:5% auto 0 auto;
+	font-size:15px;
+
+}
+.select li{
+	color: #808080;
+	list-style:none;
+	padding:15px 0 ;
+	margin: 0;
+	border-bottom: 1px solid #424141;
+	background-color: #202020;
+}
+
+.select dl{
+	zoom:1;
+	position:relative;
+	line-height:24px; 
+	margin-bottom: 0;
+}
+
+.select dl:after{
+	content:" ";
+	display:block;
+	clear:both;
+	height:0;
+	overflow:hidden;
+}
+.select dl .classification{
+	font-weight: bold;
+}
+.select dd{
+	float:left;
+	display:inline;
+	margin:0 0 5px 5px;
+	line-height:24px;
+}
+.select a{
+	display:inline-block;
+	white-space:nowrap;
+	height:24px;
+	padding:0 10px;
+	text-decoration:none;
+	color:#C5C1C1;
+	border-radius:2px;
+}
+.select a:hover{
+	color:#fff;
+	background-color:  #366F82;
+}
+
+.select .selected a{
+	color:#fff;
+	background-color: #366F82;
+}
+
+.select-no{
+	color:#999;
+}
+.select .select-result{
+	border-bottom: none;
+	background-color:#101010; 
+}
+.select .select-result a{
+	padding-right:20px;
+	background: #366F82 url("close.gif") right 9px no-repeat;
+}
+
+.select .select-result a:hover{
+	background-position:right -15px;
+}
+.echarts-dataview{
+	background-color:#141A1C ! important;
+}
+.echarts-dataview p{
+	background-color:#141A1C;
+	border-bottom:#141A1C ! important;
+
+}
+.echarts-dataview textarea{
+    background-color:#141A1C;
+}
+/*product下面的导行栏*/
+#product_bav>li:hover>.active_product{
+	display: block;
+}
+.active_product{
+	display: none;
+}
+.active_product>li>a{
+	display: block;
+	padding: 0px 20px;
+	text-decoration: none;
+	color:#666;
+}
+.active_product>li:hover>a{
+	background-color: #366F82;
+	color: #f2f2f2;
+}
+/*product下每页提醒*/
+#inform{
+   padding-left: 5px;
+   font-size: 20px;
+   color:#366F82;
+}
